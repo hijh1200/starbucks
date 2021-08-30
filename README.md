@@ -1,43 +1,13 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9f2f756f-e1fc-48d9-9c07-b7d7433d8aaa/deploy-status)](https://app.netlify.com/sites/flamboyant-lumiere-482a1e/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9f2f756f-e1fc-48d9-9c07-b7d7433d8aaa/deploy-status)](https://app.netlify.com/sites/https://elated-lamarr-a58b8f/deploys)
 
 # ☕ STARBUCKS
 
 스타벅스 랜딩 페이지(홈페이지)를 만드는 예제입니다. <br>
 꼭 ⬇ 아래 내용 모두 읽어보시고, ⬆ 완성된 코드도 확인해 보세요!
 
-[master 브랜치로 이동](https://github.com/ParkYoungWoong/starbucks-vanilla-app) <br/>
-[signin 브랜치로 이동](https://github.com/ParkYoungWoong/starbucks-vanilla-app/tree/feature/signin)
-
 [DEMO](https://flamboyant-lumiere-482a1e.netlify.app/) <br/>
 [DEMO+signin](https://priceless-bhabha-83fc0d.netlify.app/)
 
-![Starbucks](https://raw.githubusercontent.com/ParkYoungWoong/starbucks-vanilla-app/master/_assets/main_screenshot.jpg)
-
-## 문자 인코딩(Character Encoding) 설정
-
-문자가 인코딩되는 방식을 설정합니다.
-
-```html
-<meta charset="UTF-8"/>
-```
-
-- `UTF-8`: 초성, 중성, 종성으로 구분하여 문자를 작성(권장)
-- `EUC-KR`: 하나의 완성된 글자를 인식
-
-## 뷰포트(Viewport) 렌더링 방식 설정
-
-웹페이지가 화면(Viewport)에 표현되는 방식을 설정합니다.<br>
-모바일 환경에서 적용됩니다.
-
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-```
-
-- `width=device-width`: 화면의 가로 너비를 각 디바이스(Device)의 가로 너비와 동일하게 적용
-- `initial-scale=1.0`: 화면의 초기 화면 배율(확대 정도)을 설정
-- `user-scalable=no`: 사용자가 디바이스 화면을 확대(`yes`)/축소(`no`)할 수 있는지 설정
-- `maximum-scale=1`: 사용자가 화면을 확대할 수 있는 최댓값
-- `minimum-scale=1`: 사용자가 화면을 축소할 수 있는 최솟값
 
 ## 오픈 그래프(The Open Graph protocol)
 
@@ -300,22 +270,6 @@ new ScrollMagic
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
 ```
 
-## JS Strict Mode
-
-JavaScript를 '엄격 모드'로 사용합니다.<br>
-파일 혹은 함수의 최상단에 작성해야 합니다.
-
-```javascript
-'use strict';
-```
-
-> 'Strict Mode'는 ECMAScript 5 버전에 있는 새로운 기능으로써, 프로그램 또는 함수를 엄격한 운용 콘텍스트 안에서 실행시킬 수 있게끔 합니다. 이 엄격한 콘텍스트는 몇가지 액션들을 실행할 수 없도록 하며, 좀 더 많은 예외를 발생시킵니다.
-
-### 엄격 모드의 장점
-
-- 일반적인 코딩 실수에서 예외 처리
-- 안전하지 않은 액션에 대한 예외 처리 (ex: 전역 객체로 접근)
-- 혼란스럽거나 제대로 고려되지 않는 기능들을 비활성화
 
 ## 랜덤한 숫자를 생성하는 함수
 
