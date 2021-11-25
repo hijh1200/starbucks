@@ -1,12 +1,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9f2f756f-e1fc-48d9-9c07-b7d7433d8aaa/deploy-status)](https://app.netlify.com/sites/https://elated-lamarr-a58b8f/deploys)
 
-# ☕ STARBUCKS
+# STARBUCKS
 
-스타벅스 랜딩 페이지(홈페이지)를 만드는 예제입니다. <br>
-꼭 ⬇ 아래 내용 모두 읽어보시고, ⬆ 완성된 코드도 확인해 보세요!
-
-[DEMO](https://flamboyant-lumiere-482a1e.netlify.app/) <br/>
-[DEMO+signin](https://priceless-bhabha-83fc0d.netlify.app/)
+[DEMO](https://elated-lamarr-a58b8f.netlify.app) <br/>
 
 
 ## 오픈 그래프(The Open Graph protocol)
